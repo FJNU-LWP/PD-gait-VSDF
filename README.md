@@ -18,8 +18,6 @@ In this project, we provide two pose estimation extractor interfaces: OpenPose a
 ## Training
 To train the model(s) in the paper, run this command:
 
-### Example Usage
-
 ```bash
 python main.py
 -lr 0.001 -epoch 50 -batch_size 16
