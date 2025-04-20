@@ -15,7 +15,17 @@ The code is built with following libraries:
 
 ## Pose Extraction
 In this project, we provide two pose estimation extractor interfaces: OpenPose and VIBE, implemented in `op_keypoint.py` and `VIBE_keypoint.py`, respectively.
+## Training
+To train the model(s) in the paper, run this command:
 
+### Example Usage
+
+```bash
+python main.py
+-lr 0.001 -epoch 50 -batch_size 16
+-num_class 4 -optim_type 'adam' -objective 'supervised'
+-root_dir <train_video_path> -val_data_path <val_video_path>
+```
 
 ## Access to Datasets
 
