@@ -17,7 +17,7 @@ The code is built with following libraries:
 In this project, we provide two pose estimation extractor interfaces: OpenPose and VIBE, implemented in `op_keypoint.py` and `VIBE_keypoint.py`, respectively.
 These resources were used or cited within the code:
 - [VIBE](https://github.com/mkocabas/VIBE)
-- [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- [Openpose API](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 ## Training and Evaluating
 To train the model(s) in the paper, run this command:
