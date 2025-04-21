@@ -105,8 +105,8 @@ def parse_args():
 		'-pretrain_pth', type=str, default=None,
 		help='the path to the pretrain weights')
 	parser.add_argument(
-		'-weights_from', type=str, default='imagenet',
-		help='the pretrain params from [imagenet, kinetics，NTU RGB+D]')
+		'-weights_from', type=str, default='NTU_RGB+D',
+		help='the pretrain params from [imagenet, kinetics，NTU_RGB+D]')
 
 	# Training/Optimization parameters
 	parser.add_argument(
